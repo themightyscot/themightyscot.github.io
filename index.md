@@ -1,6 +1,6 @@
 ## Welcome to my how-to on NASA's API for Mars Rover photos
 
-First you'll want to check out the API at https://api.nasa.gov/index.html.  While you're there, pick up your very own api key [link](https://api.nasa.gov/index.html#apply-for-an-api-key).  That way you can run your own queries and not just the demo ones.
+First you'll want to check out the API at [https://api.nasa.gov/index.html](https://api.nasa.gov/index.html).  While you're there, pick up your very own api key [(here)](https://api.nasa.gov/index.html#apply-for-an-api-key).  That way you can run your own queries and not just the demo ones.
 
 While there are many parts to this API, the part this how-to guide will address is the Mars Rover photos section of the API. Read about what is in the dataset and how the queries work here --> https://api.nasa.gov/api.html#MarsPhotos  
 
