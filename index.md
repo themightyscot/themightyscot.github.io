@@ -1,12 +1,14 @@
 ## Welcome to my how-to on NASA's API for Mars Rover photos
 
-First you'll want to check out the API at https://api.nasa.gov/index.html.  While you're there, pick up your very own api key (https://api.nasa.gov/index.html#apply-for-an-api-key).  That way you can run your own queries and not just the demo ones.
+First you'll want to check out the API at https://api.nasa.gov/index.html.  While you're there, pick up your very own api key [link](https://api.nasa.gov/index.html#apply-for-an-api-key).  That way you can run your own queries and not just the demo ones.
 
 While there are many parts to this API, the part this how-to guide will address is the Mars Rover photos section of the API. Read about what is in the dataset and how the queries work here --> https://api.nasa.gov/api.html#MarsPhotos  
 
 Now that you're set up with the API, let's dig into how to utilize it to get some cool pictures of Mars and to sort through the pictures to find ones from specific dates or specific cameras.
 
 All of our queries will start with https://api.nasa.gov/mars-photos/api/v1/ and end with &api_key=xxxx where the 'xxxx' is your api key.
+
+A simple first query to try out is https://api.nasa.gov/mars-photos/api/v1/rovers/opportunity/?&api_key=.  This query will return basic information about the Opportunity rover.
 
 
 You can use the [editor on GitHub](https://github.com/themightyscot/themightyscot.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
