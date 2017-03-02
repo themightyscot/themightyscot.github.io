@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to my how-to on NASA's API for Mars Rover photos
 
 You can use the [editor on GitHub](https://github.com/themightyscot/themightyscot.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
