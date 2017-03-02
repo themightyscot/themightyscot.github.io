@@ -6,7 +6,7 @@ While there are many parts to this API, the part this how-to guide will address 
 
 Now that you're set up with the API, let's dig into how to utilize it to get some cool pictures of Mars and to sort through the pictures to find ones from specific dates or specific cameras.
 
-All of our queries will start with https://api.nasa.gov/mars-photos/api/v1/ and end with &api_key=**** where the **** is your api key.
+All of our queries will start with https://api.nasa.gov/mars-photos/api/v1/ and end with &api_key='****' where the **** is your api key.
 
 
 You can use the [editor on GitHub](https://github.com/themightyscot/themightyscot.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
