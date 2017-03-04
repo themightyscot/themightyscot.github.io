@@ -74,6 +74,19 @@ The first picture from that search is
 
 Pretty cool and up close, huh??
 
+One of the most useful queries we can do is a manifest query.  This query will tell us for each sol, how many photos were taken and which cameras were utilized on that day. The query for the photo manifest for the Spirit rover would look like this: https://api.nasa.gov/mars-photos/api/v1/manifests/Spirit?&api_key= and the data looks like 
+
+```markdown
+{"photo_manifest":{"name":"Spirit","landing_date":"2004-01-04","launch_date":"2003-06-10",
+"status":"complete","max_sol":2208,"max_date":"2010-03-21","total_photos":124550,
+"photos":
+{"sol":1,"total_photos":77,"cameras":["ENTRY","FHAZ","NAVCAM","PANCAM","RHAZ"]},
+{"sol":2,"total_photos":125,"cameras":["MINITES","NAVCAM","PANCAM"]},
+{"sol":3,"total_photos":125,"cameras":["NAVCAM","PANCAM","RHAZ"]},
+{"sol":4,"total_photos":143,"cameras":["FHAZ","NAVCAM","PANCAM","RHAZ"]},
+{"sol":5,"total_photos":353,"cameras":["NAVCAM","PANCAM"]},
+{"sol":6,"total_photos":346,"cameras":["FHAZ","NAVCAM","PANCAM","RHAZ"]}
+```
 
 You can use the [editor on GitHub](https://github.com/themightyscot/themightyscot.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
