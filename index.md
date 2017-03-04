@@ -10,7 +10,7 @@ All of our queries will start with https://api.nasa.gov/mars-photos/api/v1/ and 
 
 A simple first query to try out is https://api.nasa.gov/mars-photos/api/v1/rovers/opportunity/?&api_key=.  This query will return basic information about the Opportunity rover 
 
-![] (https://github.com/themightyscot/themightyscot.github.io/blob/master/Screen%20Shot%202017-03-01%20at%209.11.43%20PM.png)
+![(https://github.com/themightyscot/themightyscot.github.io/blob/master/Screen%20Shot%202017-03-01%20at%209.11.43%20PM.png)]
 
 and similar ones for Curiosity and Spirit
 
@@ -20,7 +20,9 @@ and similar ones for Curiosity and Spirit
 
 From this data, we can see that Spirit is no longer active though Opportunity and Curiosity are still up and about and taking pictures!
 
-As you'll see from the data, there are two different ways of 
+As you'll see from the data, there are two different ways of calculating the date: by Earth date or by Martian sol. The Martian sol is the amount of time a day takes on Mars and each rover counts the number of Martian days it has been on Mars starting with sol 1 as the Martian day on which it landed.
+
+So if you wanted to see 
 
 
 You can use the [editor on GitHub](https://github.com/themightyscot/themightyscot.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
