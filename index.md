@@ -10,13 +10,24 @@ All of our queries will start with https://api.nasa.gov/mars-photos/api/v1/ and 
 
 A simple first query to try out is https://api.nasa.gov/mars-photos/api/v1/rovers/opportunity/?&api_key=.  This query will return basic information about the Opportunity rover 
 
+```markdown
 ![](https://github.com/themightyscot/themightyscot.github.io/blob/master/Screen%20Shot%202017-03-01%20at%209.11.43%20PM.png)
+```
 
 and similar ones for Curiosity and Spirit
-
-![](https://github.com/themightyscot/themightyscot.github.io/blob/master/Screen%20Shot%202017-03-03%20at%206.00.38%20PM.png)
-
-![](https://github.com/themightyscot/themightyscot.github.io/blob/master/Screen%20Shot%202017-03-03%20at%206.07.46%20PM.png)
+```markdown
+![](https://github.com/themightyscot/themightyscot.github.io/blob/master/Screen%20Shot%202017-03-01%20at%209.11.43%20PM.png)
+```
+```markdown
+{"rover":{"id":7,"name":"Spirit","landing_date":"2004-01-04","launch_date":"2003-06-10",
+"status":"complete","max_sol":2208,"max_date":"2010-03-21","total_photos":124550,
+"cameras":[{"name":"FHAZ","full_name":"Front Hazard Avoidance Camera"},
+{"name":"NAVCAM","full_name":"Navigation Camera"},
+{"name":"PANCAM","full_name":"Panoramic Camera"},
+{"name":"MINITES","full_name":"Miniature Thermal Emission Spectrometer (Mini-TES)"},
+{"name":"ENTRY","full_name":"Entry, Descent, and Landing Camera"},
+{"name":"RHAZ","full_name":"Rear Hazard Avoidance Camera"}]}}
+```
 
 From this data, we can see that Spirit is no longer active though Opportunity and Curiosity are still up and about and taking pictures!
 
@@ -25,7 +36,7 @@ As you'll see from the data, there are two different ways of calculating the dat
 So if you wanted to see pictures Spirit took on October 23rd, 2004 you would query https://api.nasa.gov/mars-photos/api/v1/rovers/spirit/photos?earth_date=2004-10-23&api_key=.  Spirit took a lot of photos on that day so let's narrow it down a little and refine our query.  We'll just take a look at photos taken on that day by the Front Hazard Avoidance Camera (FHAZ) by adding the &camera=fhaz constraint to our query.  Now we get data that looks like:  
 
 ```markdown
-{"photos":[{"id":284674,"sol":286,"camera":{"id":27,"name":"FHAZ","rover_id":7,
+{"photos":{"id":284674,"sol":286,"camera":{"id":27,"name":"FHAZ","rover_id":7,
 "full_name":"Front Hazard Avoidance Camera"},
 "img_src":"http://mars.nasa.gov/mer/gallery/all/2/f/286/2F151760895EFF8987P1110L0M1-BR.JPG",
 "earth_date":"2004-10-23",
