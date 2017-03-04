@@ -62,6 +62,16 @@ If we visit the image source (look for the "img_src":.... in the query result) w
 
 ![Image](http://mars.nasa.gov/mer/gallery/all/2/f/286/2F151760895EFF8987P1110L0M1-BR.JPG)
 
+Curiosity has a camera called chemcam.  What do those pictures look like you might wonder...  Sadly there is no good way to query which days the rover took pictures with that camera.  
+
+The best practice I could come up with for finding a "chemcam" picture was to search a certain day and request only chemcam pictures with a query like https://api.nasa.gov/mars-photos/api/v1/rovers/Curiosity/photos?sol=100&camera=chemcam&api_key= which is chemcam pictures from Curiosity's sol 100.
+
+The first picture from that search is 
+
+![Image](http://mars.jpl.nasa.gov/msl-raw-images/ods/surface/sol/00100/soas/rdr/ccam/CR0_406369429PRC_F0050104CCAM01100L1.PNG)
+
+
+
 
 You can use the [editor on GitHub](https://github.com/themightyscot/themightyscot.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
