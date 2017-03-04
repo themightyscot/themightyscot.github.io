@@ -18,7 +18,9 @@ and similar ones for Curiosity and Spirit
 
 ![] (https://github.com/themightyscot/themightyscot.github.io/blob/master/Screen%20Shot%202017-03-03%20at%206.07.46%20PM.png)
 
-From this data, we can see that Spirit is no longer active.  
+From this data, we can see that Spirit is no longer active though Opportunity and Curiosity are still up and about and taking pictures!
+
+As you'll see from the data, there are two different ways of 
 
 
 You can use the [editor on GitHub](https://github.com/themightyscot/themightyscot.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
