@@ -10,13 +10,13 @@ All of our queries will start with https://api.nasa.gov/mars-photos/api/v1/ and 
 
 A simple first query to try out is https://api.nasa.gov/mars-photos/api/v1/rovers/opportunity/?&api_key=.  This query will return basic information about the Opportunity rover 
 
-![(https://github.com/themightyscot/themightyscot.github.io/blob/master/Screen%20Shot%202017-03-01%20at%209.11.43%20PM.png)]
+![](https://github.com/themightyscot/themightyscot.github.io/blob/master/Screen%20Shot%202017-03-01%20at%209.11.43%20PM.png)
 
 and similar ones for Curiosity and Spirit
 
-![] (https://github.com/themightyscot/themightyscot.github.io/blob/master/Screen%20Shot%202017-03-03%20at%206.00.38%20PM.png)
+![](https://github.com/themightyscot/themightyscot.github.io/blob/master/Screen%20Shot%202017-03-03%20at%206.00.38%20PM.png)
 
-![] (https://github.com/themightyscot/themightyscot.github.io/blob/master/Screen%20Shot%202017-03-03%20at%206.07.46%20PM.png)
+![](https://github.com/themightyscot/themightyscot.github.io/blob/master/Screen%20Shot%202017-03-03%20at%206.07.46%20PM.png)
 
 From this data, we can see that Spirit is no longer active though Opportunity and Curiosity are still up and about and taking pictures!
 
