@@ -27,6 +27,7 @@ and similar ones for Curiosity
 {"name":"MARDI","full_name":"Mars Descent Imager"},
 {"name":"RHAZ","full_name":"Rear Hazard Avoidance Camera"}}}
 ```
+
 and Spirit
 ```markdown
 {"rover":{"id":7,"name":"Spirit","landing_date":"2004-01-04","launch_date":"2003-06-10",
@@ -43,7 +44,15 @@ From this data, we can see that Spirit is no longer active though Opportunity an
 
 As you'll see from the data, there are two different ways of calculating the date: by Earth date or by Martian sol. The Martian sol is the amount of time a day takes on Mars and each rover counts the number of Martian days it has been on Mars starting with sol 1 as the Martian day on which it landed.
 
-So if you wanted to see pictures Spirit took on October 23rd, 2004 you would query https://api.nasa.gov/mars-photos/api/v1/rovers/spirit/photos?earth_date=2004-10-23&api_key=.  Spirit took a lot of photos on that day so let's narrow it down a little and refine our query.  We'll just take a look at photos taken on that day by the Front Hazard Avoidance Camera (FHAZ) by adding the &camera=fhaz constraint to our query.  Now we get data that looks like:  
+If you want to see the first pictures that Opportunity took after it landed you can query https://api.nasa.gov/mars-photos/api/v1/rovers/Opportunity/photos?sol=1&api_key=.  Now the first picture from that result is pretty lame so instead let's take a look at picture 268001 taken with the pancam
+
+![Image](http://mars.nasa.gov/mer/gallery/all/1/p/001/1P128287181EFF0000P2303L2M1-BR.JPG)
+
+and right before it, picture 149279 taken with the navcam
+
+![Image](http://mars.nasa.gov/mer/gallery/all/1/n/001/1N128285132EDN0000P1500R0M1-BR.JPG)
+
+What if you want to see the pictures taken by a rover on some specific date on Earth? Here is the query you would use if you wanted to see pictures Spirit took on October 23rd, 2004: https://api.nasa.gov/mars-photos/api/v1/rovers/spirit/photos?earth_date=2004-10-23&api_key=.  Spirit took a lot of photos on that day so let's narrow it down a little and refine our query.  We'll just take a look at photos taken on that day by the Front Hazard Avoidance Camera (FHAZ) by adding the &camera=fhaz constraint to our query.  Now we get data that looks like:  
 
 ```markdown
 {"photos":{"id":284674,"sol":286,"camera":{"id":27,"name":"FHAZ","rover_id":7,
