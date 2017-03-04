@@ -11,22 +11,22 @@ All of our queries will start with https://api.nasa.gov/mars-photos/api/v1/ and 
 A simple first query to try out is https://api.nasa.gov/mars-photos/api/v1/rovers/opportunity/?&api_key=.  This query will return basic information about the Opportunity rover 
 
 ```markdown
-![](https://github.com/themightyscot/themightyscot.github.io/blob/master/Screen%20Shot%202017-03-01%20at%209.11.43%20PM.png)
+
 ```
 
 and similar ones for Curiosity and Spirit
 ```markdown
-![](https://github.com/themightyscot/themightyscot.github.io/blob/master/Screen%20Shot%202017-03-01%20at%209.11.43%20PM.png)
+
 ```
 ```markdown
 {"rover":{"id":7,"name":"Spirit","landing_date":"2004-01-04","launch_date":"2003-06-10",
 "status":"complete","max_sol":2208,"max_date":"2010-03-21","total_photos":124550,
-"cameras":[{"name":"FHAZ","full_name":"Front Hazard Avoidance Camera"},
+"cameras":{"name":"FHAZ","full_name":"Front Hazard Avoidance Camera"},
 {"name":"NAVCAM","full_name":"Navigation Camera"},
 {"name":"PANCAM","full_name":"Panoramic Camera"},
 {"name":"MINITES","full_name":"Miniature Thermal Emission Spectrometer (Mini-TES)"},
 {"name":"ENTRY","full_name":"Entry, Descent, and Landing Camera"},
-{"name":"RHAZ","full_name":"Rear Hazard Avoidance Camera"}]}}
+{"name":"RHAZ","full_name":"Rear Hazard Avoidance Camera"}}}
 ```
 
 From this data, we can see that Spirit is no longer active though Opportunity and Curiosity are still up and about and taking pictures!
