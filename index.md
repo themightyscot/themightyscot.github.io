@@ -96,7 +96,7 @@ Interpreting these results we see that on sol 5 the Spirit rover took 353 pictur
 1. The ability to search for multiple rovers' photos at the same time /rovers/spirit&curiosity/photos?earth_date=2017-3-1 for instance
 2. The ability to search by camera rovers/Spirit?camera=navcam will currently just return the basic rover information instead of returning all the photos Spirit took with its navcam.  
 ```
-###### Maybe there are more that you would appreciate to make finding cool Mars photos easier.
+###### Maybe there are more features that you would add to make finding cool Mars photos easier.
 
 
 ## Thanks so much for taking the time to visit my site and learn about the Mars Photos portion of the NASA api.  I hope you enjoyed it!!
