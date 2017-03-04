@@ -16,7 +16,7 @@ and similar ones for Curiosity and Opportunity
 
 ![] (https://github.com/themightyscot/themightyscot.github.io/blob/master/Screen%20Shot%202017-03-03%20at%206.00.38%20PM.png)
 
-![] (
+![] (https://github.com/themightyscot/themightyscot.github.io/blob/master/Screen%20Shot%202017-03-03%20at%206.03.07%20PM.png)
 
 
 You can use the [editor on GitHub](https://github.com/themightyscot/themightyscot.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
