@@ -10,7 +10,7 @@ All of our queries will start with https://api.nasa.gov/mars-photos/api/v1/ and 
 
 A simple first query to try out is https://api.nasa.gov/mars-photos/api/v1/rovers/opportunity/?&api_key=.  This query will return basic information about the Opportunity rover 
 
-![](https://github.com/themightyscot/themightyscot.github.io/blob/master/opportunity.jpg)
+![](https://github.com/themightyscot/themightyscot.github.io/blob/master/opportunity.jpg?raw=true)
 
 and similar ones for Curiosity and Spirit
 
