@@ -11,12 +11,27 @@ All of our queries will start with https://api.nasa.gov/mars-photos/api/v1/ and 
 A simple first query to try out is https://api.nasa.gov/mars-photos/api/v1/rovers/opportunity/?&api_key=.  This query will return basic information about the Opportunity rover 
 
 ```markdown
-
+{"rover":{"id":6,"name":"Opportunity","landing_date":"2004-01-25","launch_date":"2003-07-07",
+"status":"active","max_sol":4650,"max_date":"2017-02-22","total_photos":187093,
+"cameras":{"name":"FHAZ","full_name":"Front Hazard Avoidance Camera"},
+{"name":"NAVCAM","full_name":"Navigation Camera"},
+{"name":"PANCAM","full_name":"Panoramic Camera"},
+{"name":"MINITES","full_name":"Miniature Thermal Emission Spectrometer (Mini-TES)"},
+{"name":"ENTRY","full_name":"Entry, Descent, and Landing Camera"},
+{"name":"RHAZ","full_name":"Rear Hazard Avoidance Camera"}}}
 ```
 
 and similar ones for Curiosity and Spirit
 ```markdown
-
+{"rover":{"id":5,"name":"Curiosity","landing_date":"2012-08-06","launch_date":"2011-11-26",
+"status":"active","max_sol":1626,"max_date":"2017-03-03","total_photos":306684,
+"cameras":{"name":"FHAZ","full_name":"Front Hazard Avoidance Camera"},
+{"name":"NAVCAM","full_name":"Navigation Camera"},
+{"name":"MAST","full_name":"Mast Camera"},
+{"name":"CHEMCAM","full_name":"Chemistry and Camera Complex"},
+{"name":"MAHLI","full_name":"Mars Hand Lens Imager"},
+{"name":"MARDI","full_name":"Mars Descent Imager"},
+{"name":"RHAZ","full_name":"Rear Hazard Avoidance Camera"}}}
 ```
 ```markdown
 {"rover":{"id":7,"name":"Spirit","landing_date":"2004-01-04","launch_date":"2003-06-10",
@@ -43,7 +58,7 @@ So if you wanted to see pictures Spirit took on October 23rd, 2004 you would que
 
 ```
 
-If we visit the image source (look for the "img_src":.... in the query result) we find beautiful pictures of Mars!!!
+If we visit the image source (look for the "img_src":.... in the query result) we find a beautiful picture of Mars!!!
 
 ![Image](http://mars.nasa.gov/mer/gallery/all/2/f/286/2F151760895EFF8987P1110L0M1-BR.JPG)
 
