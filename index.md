@@ -1,8 +1,8 @@
 ## Welcome to my how-to on NASA's API for Mars Rover photos
 
-First you'll want to check out the API at [https://api.nasa.gov/index.html](https://api.nasa.gov/index.html).  While you're there, pick up your very own api key [(here)](https://api.nasa.gov/index.html#apply-for-an-api-key).  That way you can run your own queries and not just the demo ones.
+First you'll want to check out the API at [https://api.nasa.gov/index.html](https://api.nasa.gov/index.html).  While you're there, pick up your very own api key [here](https://api.nasa.gov/index.html#apply-for-an-api-key).  That way you can run your own queries and not just the demo ones.
 
-While there are many parts to this API, the part this how-to guide will address is the Mars Rover photos section of the API. Read about what is in the dataset and how the queries work here --> https://api.nasa.gov/api.html#MarsPhotos.  Now that you're set up with the API, let's dig into how to utilize it to get some cool pictures of Mars and to sort through the pictures to find ones from specific dates or specific cameras. All of our queries will start with https://api.nasa.gov/mars-photos/api/v1/ and end with &api_key=xxxx where the 'xxxx' is your api key. A simple first query to try out is https://api.nasa.gov/mars-photos/api/v1/rovers/opportunity/?&api_key=.  This query will return basic information about the Opportunity rover 
+While there are many parts to this API, the part this how-to guide will address is the Mars Rover photos section of the API. Read about what is in the dataset and how the queries work [here](https://api.nasa.gov/api.html#MarsPhotos).  Now that you're set up with the API, let's dig into how to utilize it to get some cool pictures of Mars and to sort through the pictures to find ones from specific dates or specific cameras. All of our queries will start with https://api.nasa.gov/mars-photos/api/v1/ and end with &api_key=xxxx where the 'xxxx' is your api key. A simple first query to try out is https://api.nasa.gov/mars-photos/api/v1/rovers/opportunity/?&api_key=.  This query will return basic information about the Opportunity rover 
 
 ```markdown
 {"rover":{"id":6,"name":"Opportunity","landing_date":"2004-01-25","launch_date":"2003-07-07",
@@ -90,4 +90,4 @@ One of the most useful queries we can do is a manifest query.  This query will t
 
 Interpreting these results we see that on sol 5 the Spirit rover took 353 pictures and only utilized the navcam and pancam cameras to take those photographs.
 
-##Thanks so much for taking the time to visit my site and learn about the Mars Photos portion of the NASA api.  I hope you enjoyed it!!
+## Thanks so much for taking the time to visit my site and learn about the Mars Photos portion of the NASA api.  I hope you enjoyed it!!
